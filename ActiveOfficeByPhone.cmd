@@ -32,7 +32,7 @@ if '%errorlevel%' NEQ '0' (
 
 
 @echo.
-@echo                                                  ACTIVATE AIO TOOLS
+@echo                                                  ACTIVATE CMD TOOLS
 @echo                                Kich Hoat Office 2010-2013-2016-2019 Bang Key By Phone
 @echo.
 @echo.
@@ -105,8 +105,8 @@ goto nhapcid
 :exit
 @echo.
 @echo ================================================
-@echo [  Cam on ban da su dung Activate AIO Tools!   ]
-@echo [     Thanks for using Activate AIO Tools!     ]
+@echo [  Cam on ban da su dung Activate CMD Tools!   ]
+@echo [     Thanks for using Activate CMD Tools!     ]
 @echo ================================================
 timeout 3
 start https://github.com/BsNgChiThanh
@@ -117,8 +117,8 @@ goto main
 :2
 @echo.
 @echo ================================================
-@echo [  Cam on ban da su dung Activate AIO Tools!   ]
-@echo [     Thanks for using Activate AIO Tools!     ]
+@echo [  Cam on ban da su dung Activate CMD Tools!   ]
+@echo [     Thanks for using Activate CMD Tools!     ]
 @echo ================================================
 timeout 3
 start https://github.com/BsNgChiThanh
