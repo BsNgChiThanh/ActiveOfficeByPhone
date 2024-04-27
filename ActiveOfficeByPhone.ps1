@@ -4,7 +4,7 @@
 $DownloadURL = 'https://github.com/BsNgChiThanh/ActiveOfficeByPhone/blob/IMP/OfficeByPhone.cmd'
 
 $rand = Get-Random -Maximum 1000
-$FilePath = "$env:TEMP\OfficeByOhone_$rand.cmd"
+$FilePath = "$env:TEMP\OfficeByPhone_$rand.cmd"
 
 try {
     Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing -OutFile $FilePath
