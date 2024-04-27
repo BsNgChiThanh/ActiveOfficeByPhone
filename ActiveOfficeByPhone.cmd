@@ -5,20 +5,7 @@ mode con: cols=122 lines=38
 chcp 65001 >nul
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 cls 
-@echo                            ===============================================================
-@echo                                        https://github.com/BsNgChiThanh
-@echo.
-@echo                              Kich Hoat Office 2010-2013-2016-2019-2021 Bang Key By Phone
-@echo.
-@echo                                              BAM T - Tiep tuc
-@echo.
-@echo                            ===============================================================
-:begin
-Choice /N /C T /M "* Nhap lua chon cua ban : "
 
-if ERRORLEVEL 1 goto :T
-
-:T
 chcp 65001 >nul
 @echo off
 title ACTIVATE OFFICE 2010-2013-2016-2019-2021 By Phone - https://github.com/BsNgChiThanh.
@@ -61,7 +48,7 @@ if '%errorlevel%' NEQ '0' (
 @echo.
 @echo.
 @echo ===========================
-Choice /N /C 12345 /M "* Nhap lua chon cua ban : "
+Choice /N /C 123456 /M "* Nhap lua chon cua ban : "
 if %errorlevel% == 6 goto :exit
 if %errorlevel% == 5 ( set "xx=16" & goto vogia)
 if %errorlevel% == 4 ( set "xx=16" & goto vogia)
@@ -122,7 +109,7 @@ goto nhapcid
 @echo [     Thanks for using Activate AIO Tools!     ]
 @echo ================================================
 timeout 3
-start https://www.facebook.com/HoiQuanCongNgheTinHoc
+start https://github.com/BsNgChiThanh
 exit
 goto main
 )
@@ -134,7 +121,7 @@ goto main
 @echo [     Thanks for using Activate AIO Tools!     ]
 @echo ================================================
 timeout 3
-start https://www.facebook.com/HoiQuanCongNgheTinHoc
+start https://github.com/BsNgChiThanh
 exit
 
 goto begin
