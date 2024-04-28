@@ -7,6 +7,4 @@
     ```
 ### Demo: ###
   - ![image](https://github.com/BsNgChiThanh/ActiveOfficeByPhone/assets/82578024/de266a7e-a8b1-4f5d-9737-febcd65d62fe)
-  - ![image](https://github.com/BsNgChiThanh/ActiveOfficeByPhone/assets/82578024/cd43772a-e948-4e7b-93f1-886fd8aac855)
-
-
+  - ![image](https://github.com/BsNgChiThanh/ActiveOfficeByPhone/assets/82578024/31674ef7-b407-41c3-a973-832c9f182e35)
