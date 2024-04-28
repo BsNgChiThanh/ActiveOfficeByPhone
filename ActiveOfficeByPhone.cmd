@@ -34,8 +34,6 @@ if '%errorlevel%' NEQ '0' (
 @echo.
 @echo                                                  ACTIVATE CMD TOOLS
 @echo                                Kich Hoat Office 2010-2013-2016-2019 Bang Key By Phone
-@echo.
-@echo.
 @echo                                 =====================================================
 @echo                                 [  1. Office 2010                 : Nhan phim so 1  ]
 @echo                                 [  2. Office 2013                 : Nhan phim so 2  ]
@@ -44,8 +42,6 @@ if '%errorlevel%' NEQ '0' (
 @echo                                 [  5. Office 2021                 : Nhan phim so 5  ]
 @echo                                 [  6. Thoat                       : Nhan phim so 6  ]
 @echo                                 =====================================================
-@echo.
-@echo.
 @echo.
 @echo ===========================
 Choice /N /C 123456 /M "* Nhap lua chon cua ban : "
