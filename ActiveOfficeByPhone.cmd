@@ -165,6 +165,5 @@ pause >nul
 goto main
 )
 
-:readme
-start BIN\Text\ActHDSD.txt
+:readme 
 goto main
