@@ -3,8 +3,15 @@
   - Bấm chuột phải vào **Windows PowerShell** chọn **Run as Administrator**
   - Copy câu lệnh dưới đây dán vào và nhấn enter
     ```php
-    iwr -useb https://raw.githubusercontent.com/BsNgChiThanh/ActiveOfficeByPhone/IMP/ActiveOfficeByPhone.ps1 | iex
+    irm https://raw.githubusercontent.com/BsNgChiThanh/ActiveOfficeByPhone/IMP/ActiveOfficeByPhone.ps1 | iex
     ```
+
+    Hoặc:
+
+    ```php
+    irm https://bit.ly/4b42vc7 | iex
+    ```
+  
 ### Demo: ###
   - ![image](https://github.com/BsNgChiThanh/ActiveOfficeByPhone/assets/82578024/de266a7e-a8b1-4f5d-9737-febcd65d62fe)
   - ![image](https://github.com/BsNgChiThanh/ActiveOfficeByPhone/assets/82578024/31674ef7-b407-41c3-a973-832c9f182e35)
