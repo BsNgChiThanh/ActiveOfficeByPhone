@@ -1,3 +1,5 @@
+![image](https://github.com/BsNgChiThanh/Lich-phong-kham/assets/82578024/d575f08f-29b1-4848-83b0-fb5e88dcb50c)
+
 # KÍCH HOẠT OFFICE BYPHONE ##
 ## Kích hoạt trực tiếp từ Windows PowerShell: ##
   - Bấm chuột phải vào **Windows PowerShell** chọn **Run as Administrator**
