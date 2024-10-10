@@ -40,7 +40,7 @@ if '%errorlevel%' NEQ '0' (
 @echo                                 [  3. Office 2016                 : Nhan phim so 3  ]
 @echo                                 [  4. Office 2019                 : Nhan phim so 4  ]
 @echo                                 [  5. Office 2021                 : Nhan phim so 5  ]
-@echo                                 [  6. Office 2021                 : Nhan phim so 6  ]
+@echo                                 [  6. Office 2024                 : Nhan phim so 6  ]
 @echo                                 [  7. Thoat                       : Nhan phim so 7  ]
 @echo                                 =====================================================
 @echo.
