@@ -44,7 +44,7 @@ if '%errorlevel%' NEQ '0' (
 @echo                                 [  7. Thoat                       : Nhan phim so 7  ]
 @echo                                 =====================================================
 @echo.
-@echo ===========================
+@echo =====================================================================================
 Choice /N /C 1234567 /M "                     * Nhap lua chon cua ban [1,2,3,4,5,6,7]: "
 if %errorlevel% == 7 goto :exit
 if %errorlevel% == 6 ( set "xx=16" & goto vogia)
