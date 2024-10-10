@@ -1,6 +1,6 @@
 chcp 65001 >nul
 @echo off
-title ACTIVATE OFFICE 2010-2013-2016-2019-2021 By Phone - https://github.com/BsNgChiThanh.
+title ACTIVATE OFFICE 2010-2013-2016-2019-2021-2024 By Phone - https://github.com/BsNgChiThanh.
 mode con: cols=122 lines=38
 chcp 65001 >nul
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
@@ -40,12 +40,14 @@ if '%errorlevel%' NEQ '0' (
 @echo                                 [  3. Office 2016                 : Nhan phim so 3  ]
 @echo                                 [  4. Office 2019                 : Nhan phim so 4  ]
 @echo                                 [  5. Office 2021                 : Nhan phim so 5  ]
-@echo                                 [  6. Thoat                       : Nhan phim so 6  ]
+@echo                                 [  6. Office 2021                 : Nhan phim so 6  ]
+@echo                                 [  7. Thoat                       : Nhan phim so 7  ]
 @echo                                 =====================================================
 @echo.
 @echo ===========================
-Choice /N /C 123456 /M "* Nhap lua chon cua ban : "
-if %errorlevel% == 6 goto :exit
+Choice /N /C 1234567 /M "                     * Nhap lua chon cua ban [1,2,3,4,5,6,7]: "
+if %errorlevel% == 7 goto :exit
+if %errorlevel% == 6 ( set "xx=16" & goto vogia)
 if %errorlevel% == 5 ( set "xx=16" & goto vogia)
 if %errorlevel% == 4 ( set "xx=16" & goto vogia)
 if %errorlevel% == 3 ( set "xx=16" & goto vogia)
